@@ -1,0 +1,141 @@
+.base-info {
+  width: 1440px;
+  margin: 0 auto;
+}
+.base-info .base-title {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.base-info .base-title h1 {
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: end;
+}
+.base-info .base-title h2 {
+  font-size: 24px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.base-info .base-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.base-info .base-details .base-item {
+  width: 22%;
+  border: none;
+  border-radius: 10px;
+  margin: 15px 0;
+  border: 1px solid rgb(164, 157, 157);
+}
+.base-info .base-details .base-item:hover {
+  transition: all 0.5s ease;
+  box-shadow: 0 0 10px 0 grey;
+}
+.base-info .base-details .base-item .image {
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
+.base-info .base-details .base-item .image .item {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.base-info .base-details .base-item .image .item:hover {
+  transform: scale(1.9);
+  transition: all 0.4s ease;
+}
+.base-info .base-details .base-item .image .discount {
+  width: 25%;
+  margin-top: 25px;
+  padding-left: 25px;
+}
+.base-info .base-details .base-item .image .discount .discount-small {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.base-info .base-details .base-item .image .discount .discount-small p {
+  font-weight: 600;
+}
+.base-info .base-details .base-item .price {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px 0;
+}
+.base-info .base-details .base-item .price .price-default {
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 500;
+  color: grey;
+}
+.base-info .base-details .base-item .price .price-now {
+  font-size: 20px;
+  color: green;
+  font-weight: 600;
+}
+.base-info .base-details .base-item .item-title {
+  width: 100%;
+  height: 30px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.base-info .base-details .base-item .discount-time {
+  text-align: center;
+  margin: 10px 0;
+}
+.base-info .base-details .base-item .discount-time p {
+  font-size: 16px;
+  color: grey;
+}
+.base-info .base-details .base-item .data-time {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.base-info .base-details .base-item .data-time .times {
+  text-align: center;
+}
+.base-info .base-details .base-item .data-time .times p {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+}
+.base-info .base-details .base-item .icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 20px;
+  border-top: 1px solid grey;
+}
+.base-info .base-details .base-item .icons i {
+  color: grey;
+  padding-top: 10px;
+}
+.base-info .base-details .base-item .icons i:hover {
+  color: red;
+}
+.base-info .base-details .base-item .icons p {
+  color: grey;
+}

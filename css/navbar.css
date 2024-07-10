@@ -1,0 +1,152 @@
+.nav {
+  width: 1440px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.nav .navbar-medium {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.nav .navbar-medium .img {
+  width: 25%;
+  text-align: start;
+}
+.nav .navbar-medium .input {
+  width: 42%;
+  height: 40px;
+  border: 2px solid #ED3729;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.nav .navbar-medium .input select {
+  width: auto;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.nav .navbar-medium .input input {
+  width: 61%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+.nav .navbar-medium .input .fa-microphone {
+  font-size: 20px;
+  background-color: white;
+  margin-right: 10px;
+}
+.nav .navbar-medium .input button {
+  padding: 11px 20px;
+  background-color: #ED3729;
+  display: flex;
+  align-items: center;
+  color: white;
+  border: none;
+  padding-right: 27px;
+}
+.nav .navbar-medium .input button .fa-magnifying-glass {
+  padding-right: 10px;
+}
+.nav .navbar-medium .deeds {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .navbar-medium .deeds .user {
+  text-align: center;
+  margin-top: 10px;
+}
+.nav .navbar-medium .deeds .user i {
+  font-size: 20px;
+}
+.nav .navbar-medium .deeds .scales {
+  text-align: center;
+}
+.nav .navbar-medium .deeds .scales .number-scales {
+  display: flex;
+}
+.nav .navbar-medium .deeds .scales .number-scales i {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.nav .navbar-medium .deeds .scales .number-scales p {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+}
+.nav .navbar-medium .deeds .heart {
+  text-align: center;
+}
+.nav .navbar-medium .deeds .heart .number-heart {
+  display: flex;
+}
+.nav .navbar-medium .deeds .heart .number-heart i {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.nav .navbar-medium .deeds .heart .number-heart p {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+}
+.nav .navbar-medium .deeds .shop {
+  text-align: center;
+}
+.nav .navbar-medium .deeds .shop .number-shop {
+  display: flex;
+}
+.nav .navbar-medium .deeds .shop .number-shop i {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.nav .navbar-medium .deeds .shop .number-shop p {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+}
+.nav .navbar-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.nav .navbar-bottom button {
+  padding: 7px 45px;
+  display: flex;
+  justify-content: start;
+  margin: 0;
+  gap: 10px;
+  background-color: #ED3729;
+  font-size: 14px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.nav ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  font-size: 17px;
+}
+.nav ul li {
+  font-weight: 550;
+  display: flex;
+}

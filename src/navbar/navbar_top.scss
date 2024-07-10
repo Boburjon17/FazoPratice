@@ -1,0 +1,43 @@
+
+
+.navbar-top-big{
+    width: 1515px;
+    height: 8vh;
+    background-color: #ED3729;
+    display: flex;
+    align-items: center;
+    
+
+    .navbar_top{
+      width: 1440px;
+      margin: 0 auto;
+        color: white;
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+        h1{ 
+             font-size: 24px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+             
+            
+        }
+        .fazo_about{
+         
+            ul{
+                display: flex;
+                gap: 25px;
+            
+            }
+           
+        }
+        .contact{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            
+        }
+    }
+
+}

@@ -1,0 +1,112 @@
+  .recommend{
+    width: 1440px;
+    margin: 0 auto;
+  
+  
+
+    .recommend-title{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px 0;
+        h1{
+            font-size: 24px;
+            font-weight: 400;
+        }
+        .recommend-right{
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            color: grey;
+            font-weight: 400;
+
+        }
+    }
+    .recommend-details{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+        .recommend-image{
+            width: 30%;
+
+        }
+        .recommend-menu{
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .recommend-item{
+                width: 24%;
+                border: 3px solid #F2F2F2;
+                border-radius: 8px;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                &:hover{
+                  
+                    transition: all .5s ease;
+                    box-shadow: 0 0 20px 2px grey;
+                }
+                .image{
+                    width: 100%;
+                   
+                    text-align: center;
+                }
+                .recommend-price{
+                    margin: 5px 0;
+                    font-weight: 400;
+                    text-align: center;
+                    .r-now-price{
+                        color: red;
+                        font-size: 18px;
+    
+                    }
+                    .r-old-price{
+                        color: grey;
+                        font-size: 14px;
+    
+                    }
+                }
+                .recommend-title{
+                    margin: 10px 0;
+                    text-align: center;
+                    width: 80%;
+                    font-weight: 400;
+                    font-size: 18px;
+                  
+    
+    
+                }
+                .recommend-icons{
+                   width: 100%;
+                   display: flex;
+                   justify-content: space-evenly;
+                   align-items: center ; 
+                   margin: 10px 0;
+                   padding-top: 10px;
+                   border-top: 3px solid #F2F2F2;
+                   i{
+                    font-size: 18px;
+                    color: grey;
+    
+                    &:hover{
+                        color: red;
+    
+                    }
+                   }
+                }
+    
+            }
+
+        }
+
+    }
+
+  }

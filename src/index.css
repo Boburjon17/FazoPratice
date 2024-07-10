@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&family=Roboto+Slab:wght@500&family=Rufina&family=Sen:wght@500&display=swap');
+
+
+
+
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box; 
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  
+}
