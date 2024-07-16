@@ -9,3 +9,4 @@
  export {default as ToRecommend}  from "./to recommend/to-recommend"
  export { default as ProductSlider} from "./single-product-slider/product-slider"
   export { default as Brend} from "./brend/brend"
+  export { default as Category}  from "./category/category"

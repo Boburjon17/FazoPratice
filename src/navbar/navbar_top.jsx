@@ -1,11 +1,23 @@
 import React from 'react'
 import "./navbar_top.scss"
+import images from "../assets/index"
 
 const NavbarTop = () => {
   return (
 
     <div className="navbar-top-big">
-    <div className="navbar_top">
+      {/* <div className="navbar-media">
+      <div className="img">
+       <img src= {images.logo} alt="logo" />
+       </div>
+       <i className="fa-solid fa-phone"></i>
+
+       <h1>
+        <i className="fa-solid fa-location-dot"></i>
+          Ташкент
+        </h1>
+      </div> */}
+    <div className="navbar-top">
         <h1>
         <i className="fa-solid fa-location-dot"></i>
           Ташкент

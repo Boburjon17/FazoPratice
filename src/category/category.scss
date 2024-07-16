@@ -1,0 +1,69 @@
+.category{
+    width: 1440px;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    animation-name: animat;
+     animation-duration: .4s;
+     
+  
+    
+
+    .category-left{
+        width: 27%;
+       
+       
+        .category-section{
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 12px 0;
+            .left-title{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+        }
+    }
+    .category-center{
+        width: 30%;
+        height: auto;
+        
+    
+        h1{
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .list{
+           
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                margin: 10px 0;
+            }
+        }
+    }
+    .category-right{
+        width: 39%;
+        height: auto;
+      
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+    }
+}
+
+@keyframes  animat{
+    0%{
+        top: 100%;
+    }
+    100%{
+        top: 0
+
+    }
+}

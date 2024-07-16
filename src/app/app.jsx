@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Home, Navbar, NavbarTop } from '../indexs'
+import { Category, Footer, Home, Navbar, NavbarTop } from '../indexs'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
  
 
@@ -16,6 +16,7 @@ const app = () => {
       
        <Routes>
         <Route path='/'  element= {<Home/>} />
+        <Route path='/category' element={<Category/>} />
        </Routes>
         <Footer/>
       

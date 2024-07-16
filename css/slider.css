@@ -1,20 +1,18 @@
-.Swipper {
+.slider-container {
   width: 1440px;
+  margin: 0 auto;
 }
-
-.swiper-slide {
+.slider-container .swiper-slide {
   width: 100%;
-  height: 900px;
-  margin: 55px 0;
+  height: 500px;
+  margin: 30px 0;
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.swiper-slide img {
+.slider-container .swiper-slide img {
   display: block;
   width: 1440px;
   height: 450px;
-  margin: 0 auto;
 }

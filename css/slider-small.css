@@ -1,0 +1,59 @@
+.sliderSmall-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.sliderSmall-container h1 {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: 600;
+}
+.sliderSmall-container .swiper {
+  width: auto;
+}
+.sliderSmall-container .swiper-slide {
+  max-width: 350px;
+  height: 170px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border: 2px solid grey;
+  border-radius: 10px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderSmall-container .swiper-slide .slider-fon {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.sliderSmall-container .swiper-slide .slider-fon .text-title {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.sliderSmall-container .swiper-slide .slider-fon .text-title h1 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.sliderSmall-container .swiper-slide .slider-fon .Small-img {
+  width: 48%;
+  height: 100%;
+}
+.sliderSmall-container .swiper-slide .slider-fon .Small-img img {
+  width: 100%;
+  height: 100%;
+}
+.sliderSmall-container .swiper-pagination {
+  display: none;
+}
+.sliderSmall-container .swiper-slide img {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+}

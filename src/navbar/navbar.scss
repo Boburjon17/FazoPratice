@@ -213,14 +213,10 @@
         
        
             button{
-                
-              
-                
                 padding: 7px 45px;
                 display: flex;
-                justify-content: start;
-                margin: 0;
-
+                justify-content: center;
+                align-items: center;
                 gap: 10px;
                 background-color: #ED3729;
                 font-size: 14px;
@@ -245,6 +241,14 @@
             }
            
         }
+        }
+
+        @media screen and (max-width:447px) {
+            .nav{
+                width: 447px;
+                display: none;
+            }
+            
         }
         
     

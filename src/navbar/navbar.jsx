@@ -1,10 +1,12 @@
 import React from "react";
 import "./navbar.scss"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import images from '../assets/index'
 
 
 const Navbar = () => {
+
+  const navigate = useNavigate()
   return (
     <nav className="nav">
      
@@ -59,9 +61,11 @@ const Navbar = () => {
       </div>
       < div className="navbar-bottom">
     
-      <button>
+      <button  onClick={
+        ()=>{navigate("/category")}
+      }>
         <i className="fa-solid fa-list-ul"></i>
-        <p>Категории</p>
+        <p   >Категории</p>
         </button>
       
         <ul>

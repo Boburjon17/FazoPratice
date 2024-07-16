@@ -1,0 +1,46 @@
+.sliderBrend-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.sliderBrend-container h1 {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: 600;
+}
+.sliderBrend-container .swiper {
+  width: auto;
+}
+.sliderBrend-container .swiper-slide {
+  max-width: 250px;
+  height: 100px;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border: 2px solid grey;
+  border-radius: 10px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderBrend-container .swiper-slide .brend-img {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderBrend-container .swiper-slide .brend-img img {
+  width: auto;
+  height: auto;
+}
+.sliderBrend-container .swiper-pagination {
+  display: none;
+}
+.sliderBrend-container .swiper-slide img {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+}

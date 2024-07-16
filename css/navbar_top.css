@@ -17,6 +17,7 @@
   font-size: 24px;
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 .navbar-top-big .navbar_top .fazo_about ul {
   display: flex;
@@ -26,4 +27,21 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.navbar-top-big .navbar-media {
+  display: none;
+}
+
+@media screen and (max-width: 447px) {
+  .navbar-top-big {
+    width: 100%;
+    background-color: white;
+    border: 1px solid red;
+  }
+  .navbar-media {
+    display: flex;
+  }
+  .navbar-top {
+    display: none;
+  }
 }

@@ -18,7 +18,7 @@ const BaseInfo = () => {
         <div className="base-item">
           <div className="image">
             <div className="item">
-              <img src={images.itemImage} alt="" />
+              <img src={images.cheapImage} alt="" />
             </div>
             <div className="discount">
               <div className="discount-small">
@@ -80,7 +80,7 @@ const BaseInfo = () => {
         <div className="base-item">
           <div className="image">
             <div className="item">
-              <img src={images.itemImage} alt="" />
+              <img src={images.cheapImage} alt="" />
             </div>
             <div className="discount">
               <div className="discount-small">
@@ -144,7 +144,7 @@ const BaseInfo = () => {
         <div className="base-item">
           <div className="image">
             <div className="item">
-              <img src={images.itemImage} alt="" />
+              <img src={images.cheapImage} alt="" />
             </div>
             <div className="discount">
               <div className="discount-small">
@@ -208,7 +208,7 @@ const BaseInfo = () => {
         <div className="base-item">
           <div className="image">
             <div className="item">
-              <img src={images.itemImage} alt="" />
+              <img src={images.cheapImage} alt="" />
             </div>
             <div className="discount">
               <div className="discount-small">
@@ -271,7 +271,7 @@ const BaseInfo = () => {
         <div className="base-item">
           <div className="image">
             <div className="item">
-              <img src={images.itemImage} alt="" />
+              <img src={images.cheapImage} alt="" />
             </div>
             <div className="discount">
               <div className="discount-small">
@@ -323,9 +323,9 @@ const BaseInfo = () => {
 
           <div className="icons">
           <i className="fa-solid fa-cart-shopping"></i>
-          <p>|</p>
+        
           <i className="fa-regular fa-heart"></i>
-          <p>|</p>
+    
           <i className="fa-solid fa-scale-balanced"></i>
           
           </div>
@@ -333,19 +333,10 @@ const BaseInfo = () => {
         </div>
 
 
-
-
-
-
-
-
-
-
-
         <div className="base-item">
           <div className="image">
             <div className="item">
-              <img src={images.itemImage} alt="" />
+              <img src={images.cheapImage} alt="" />
             </div>
             <div className="discount">
               <div className="discount-small">
@@ -407,7 +398,7 @@ const BaseInfo = () => {
         <div className="base-item">
           <div className="image">
             <div className="item">
-              <img src={images.itemImage} alt="" />
+              <img src={images.cheapImage} alt="" />
             </div>
             <div className="discount">
               <div className="discount-small">
@@ -471,7 +462,7 @@ const BaseInfo = () => {
         <div className="base-item">
           <div className="image">
             <div className="item">
-              <img src={images.itemImage} alt="" />
+              <img src={images.cheapImage} alt="" />
             </div>
             <div className="discount">
               <div className="discount-small">

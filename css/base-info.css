@@ -42,7 +42,7 @@
 }
 .base-info .base-details .base-item .image {
   width: 100%;
-  height: 250px;
+  height: 200px;
   display: flex;
 }
 .base-info .base-details .base-item .image .item {
@@ -51,13 +51,9 @@
   justify-content: center;
   align-items: center;
 }
-.base-info .base-details .base-item .image .item:hover {
-  transform: scale(1.9);
-  transition: all 0.4s ease;
-}
 .base-info .base-details .base-item .image .discount {
   width: 25%;
-  margin-top: 25px;
+  padding-top: 10px;
   padding-left: 25px;
 }
 .base-info .base-details .base-item .image .discount .discount-small {
@@ -97,11 +93,9 @@
   font-size: 10px;
   text-align: center;
   font-weight: 700;
-  margin: 20px 0;
 }
 .base-info .base-details .base-item .discount-time {
   text-align: center;
-  margin: 10px 0;
 }
 .base-info .base-details .base-item .discount-time p {
   font-size: 16px;
@@ -111,6 +105,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 5px 0;
 }
 .base-info .base-details .base-item .data-time .times {
   text-align: center;
@@ -125,13 +120,12 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 20px 0;
-  font-size: 20px;
+  padding: 10px 0;
   border-top: 1px solid grey;
 }
 .base-info .base-details .base-item .icons i {
   color: grey;
-  padding-top: 10px;
+  font-size: 20px;
 }
 .base-info .base-details .base-item .icons i:hover {
   color: red;
