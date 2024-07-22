@@ -6,7 +6,8 @@
     display: flex;
     justify-content: space-between;
     animation-name: animat;
-     animation-duration: .4s;
+     animation-duration: .5s;
+     border: 2px solid red;
      
   
     
@@ -60,7 +61,7 @@
 
 @keyframes  animat{
     0%{
-        top: 100%;
+        bottom: -100%;
     }
     100%{
         top: 0

@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.scss"
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import images from '../assets/index'
+import Category from "../category/category";
 
 
 const Navbar = () => {
+  const  [CategoryList, setCategoryList]= useState(false)
 
-  const navigate = useNavigate()
+
+
+
   return (
     <nav className="nav">
      
@@ -60,13 +64,22 @@ const Navbar = () => {
         </div>
       </div>
       < div className="navbar-bottom">
+
+       
     
-      <button  onClick={
-        ()=>{navigate("/category")}
-      }>
+    
+    <button
+      onClick={     
+        () => setCategoryList(!CategoryList)}
+        
+      
+        >
+
         <i className="fa-solid fa-list-ul"></i>
         <p   >Категории</p>
         </button>
+    
+     
       
         <ul>
           <li><Link to={"/"} >Наши магазины</Link></li>
@@ -79,7 +92,13 @@ const Navbar = () => {
         </ul>
       </div>
 
+      {
+      CategoryList && <Category/> 
+    }
+
     </nav>
+
+   
   );
 };
 
